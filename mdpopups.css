@@ -1,0 +1,9 @@
+.mdpopups .lsp_hover {
+    font-family: "Fira Code", sans-serif;
+    line-height: 1.4em;
+}
+
+.lsp_hover div.highlight,
+.lsp_hover pre.highlight {
+    margin-bottom: 0;
+}

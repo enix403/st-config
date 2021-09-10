@@ -1,0 +1,7 @@
+{
+
+    "browser": "/usr/bin/firefox",
+    "path_tempfile": "./tmp/markdownpreview",
+    "github_mode": "gfm",
+    "enabled_parsers": ["github"],
+}

@@ -1,0 +1,60 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+    "variables":
+    {
+        // "purple_o": "hsla(260, 50%, 60%, 1)",
+        // "teal_o": "hsla(170, 70%, 45%, 1)",
+        "blue_o": "hsla(200, 70%, 45%, 1)",
+        "green_o": "hsla(130, 70%, 45%, 1)",
+        // "green_o": "hsla(25, 90%, 40%, 1)",
+        // "green_o": "hsla(20, 70%, 45%, 1)",
+
+        // "red_o": "hsla(0, 70%, 65%, 1)",
+        // "orange_o": "hsla(25, 90%, 60%, 1)",
+        // "dark_orange_o": "hsla(10, 90%, 60%, 1)",
+        // "yellow_o": "hsla(50, 100%, 60%, 1)",
+        // "brown_o": "hsla(30, 30%, 45%, 1)",
+        // "dark_brown_o": "hsla(30, 30%, 30%, 1)",
+        // "magenta_o": "hsla(335, 100%, 65%, 1)",
+        // "light_gray_o": "#f6f6f6",
+        // "dark_gray_o": "#333",
+        // "black_o": "black"
+    },
+    "globals":
+    {
+        "background": "#1D2021",
+        "gutter": "#1D2021",
+        // "gutter_foreground": "#928374"
+    },
+    "rules":
+    [
+        {
+            "scope": "source.jsx, source.tsx, source.js, source.ts, source.python, source.c++, source.c - comment - string - keyword - punctuation - storage - entity - source.css",
+            "foreground": ["var(green_o)", "var(blue_o)"]
+        },
+        {
+            "name": "Strings",
+            "scope": "meta.object-literal.key string,string,punctuation.definition.string",
+            // "foreground": "#B8BB26"
+            "foreground": "#bb9b26"
+        },
+        {
+          "name": "JSON Keys",
+          "scope": "meta.mapping.key.json string,meta.structure.dictionary.key.json string",
+          "foreground": "#83A598"
+        },
+        {
+          "name": "JSX Tag Name",
+          // "scope": "meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js meta.tag.name.js entity.name.tag.js",
+          "scope": "meta.jsx.js meta.tag.name.js entity.name.tag.js",
+          "foreground": "#569cd6"
+          // "foreground": "#4ec9a2"
+        },
+        {
+          "name": "JSX Tag Angle brackets",
+          "scope": "meta.jsx.js meta.tag.js punctuation.definition.tag.begin.js, punctuation.definition.tag.end.js",
+          "foreground": "#7c7364"
+        },
+
+    ]
+}

@@ -1,0 +1,53 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+	"clients": {
+		
+		// Disabling every single client here to prevent unnecessary bloat
+		// invidual clients can be enabled on per-project basis
+
+		"clangd": {
+			"command": [
+				"/usr/bin/clangd",
+				"-all-scopes-completion=true",
+				"-debug-origin",
+				"-header-insertion=never",
+				"-completion-style=bundled",
+				"-limit-results=100",
+				"-ranking-model=decision_forest",
+				"-background-index",
+				"-include-ineligible-results=false",
+				"-header-insertion-decorators",
+				"-async-preamble=false"
+				// "-ranking-model=heuristics"
+			],
+			"enabled": false
+		},
+		"rust-analyzer": {"enabled": false},
+		"erlang-ls": {"enabled": false},
+		"ocaml": {"enabled": false},
+		"gopls": {"enabled": false},
+		"polymer-ide": {"enabled": false},
+		"ruby": {"enabled": false},
+		"sorbet": {"enabled": false},
+
+
+		// Actually these (external) packages should be disabled
+		// in there respective setting files, not here 
+		"LSP-dockerfile": { "enabled": false },
+		"LSP-pyright": { "enabled": false },
+		"LSP-bash": { "enabled": false },
+		"LSP-Dart": { "enabled": false }, 
+
+	},
+
+	// "only_show_lsp_completions": true,
+	"show_view_status": true,
+	"show_diagnostics_count_in_view_status": true,
+	"highlight_active_signature_parameter": true,
+	"diagnostics_gutter_marker": "dot",
+	"show_code_actions_bulb": true,
+	"show_symbol_action_links": true,
+
+	"inhibit_snippet_completions": true,
+	"inhibit_word_completions": true,
+}

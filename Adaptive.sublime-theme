@@ -1,0 +1,59 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+    "variables":
+    {
+    },
+    "rules":
+    [
+        {
+            "class": "panel_control",
+            "layer0.opacity": 1.0,
+            "content_margin": 20
+        },
+
+        {
+            "class": "panel_grid_control",
+            "inside_spacing": 4,
+            "outside_hspacing": 4,
+            "outside_vspacing": 4
+        },
+
+        {
+            "class": "panel_close_button",
+            "content_margin": 8
+        },
+
+        {
+            "class": "icon_button_group",
+            "spacing": 8
+        },
+
+        {
+            "class": "icon_button_control",
+            "layer0.inner_margin": 8,
+            "content_margin": 2
+        },
+
+        {
+            "class": "tool_tip_control",
+            "layer0.tint": "white",
+            "layer0.opacity": 1.0,
+            "content_margin": [8, 3, 8, 3]
+        },
+        {
+            "class": "tool_tip_label_control",
+            "font.face": "Fira Code",
+            "font.size": 10,
+            "fg": "hsl(0, 0%, 20%)"
+        },
+
+        {
+            "class": "text_line_control",
+            "layer0.opacity": 1.0,
+            "layer0.inner_margin": 4,
+            "tint_index": 0,
+            "content_margin": 4,
+        },
+
+    ]
+}

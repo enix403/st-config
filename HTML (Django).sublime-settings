@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		"txt",
+		"html",
+		"html",
+	],
+	"auto_complete_selector": "text, meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+}

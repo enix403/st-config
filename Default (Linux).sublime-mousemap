@@ -1,0 +1,44 @@
+[
+    // {
+    //     "button": "button1", 
+    //     "count": 1, 
+    //     "modifiers": ["ctrl"],
+    //     "press_command": "drag_select",
+    //     "command": "goto_definition"
+    // },
+
+    {
+        "command": "lsp_symbol_definition",
+        "args": {
+            "side_by_side": false
+        },
+        "button": "button1", 
+        "count": 1, 
+        "modifiers": ["ctrl"],
+        "press_command": "drag_select",
+
+        "context": [
+            {
+                "key": "lsp.session_with_capability",
+                "operator": "equal",
+                "operand": "definitionProvider"
+            },
+            {
+                "key": "auto_complete_visible",
+                "operator": "equal",
+                "operand": false
+            }
+        ]
+    },
+
+    {
+        "button": "button1", "count": 1, "modifiers": ["alt"],
+        "press_command": "drag_select",
+        "press_args": {"additive": true}
+    },
+    {
+        "button": "button1", "count": 2, "modifiers": ["alt"],
+        "press_command": "drag_select",
+        "press_args": {"by": "words", "additive": true}
+    },
+]

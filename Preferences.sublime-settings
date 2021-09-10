@@ -1,0 +1,152 @@
+{
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 1,
+	"caret_style": "smooth",
+	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Hard) NDC.sublime-color-scheme",
+	
+	"font_face": "Fira Code",
+	// "font_face": "Inconsolata",
+	"font_size": 9,
+
+	"font_options":
+	[
+		// "no_liga",
+		// "no_clig",
+		// "no_calt",
+		"no_round",
+		"no_italic",
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Diff",
+		"Vintage",
+	],
+	"remember_open_files": false,
+	"show_git_status": false,
+	"mini_diff": false,
+	"theme": "gruvbox.sublime-theme",
+	"ui_scale": 0.0,
+	"preview_on_click": false,
+
+	"translate_tabs_to_spaces": true,
+    "overlay_scroll_bars": "enabled",
+    "bold_folder_labels": true,
+    "always_show_minimap_viewport": true,
+    "shift_tab_unindent": false,
+    // "trim_automatic_white_space": false,
+    "use_tab_stops": true,
+    "indent_guide_options": [
+    	"draw_normal", 
+    	"draw_active"
+	],
+
+    // Folders that should not show up in sidebar
+    "folder_exclude_patterns": [
+    	".svn",
+    	".hg",
+    	"CVS",
+    	"__pycache__",
+	],
+
+	// Files that should show up in sidebar
+	// but not in search file panel
+    "binary_file_patterns": [
+		"*.exe",
+    	"*.dll",
+    	"*.obj",
+    	"*.o",
+    	"*.a",
+    	"*.lib",
+    	"*.so",
+    	"*.class",
+    	"*.pyo",
+    	"*.dylib",
+    	"*.ncb",
+    	"*.sdf",
+    	"*.suo",
+    	"*.pdb",
+    	"*.idb",
+    	".DS_Store",
+    	"*.psd",
+    	"*.db",
+    	"*.d",
+    	"*.idx",
+    	"*.bin",
+    	
+    	".venv/*",
+    	".git/*",
+    	"node_modules/*",
+    	"*.min.css",
+    	".cache/*",
+	],
+
+    // Files that shoud show up neither in sidebar
+    // nor in search file panel
+    "file_exclude_patterns": [
+    	"*.pyc",
+    	"*.sublime-workspace",
+    	"*.db-journal",
+	],
+
+	// gruvbox theme
+	// "gruvbox_accent_aqua": true,
+  	// "gruvbox_accent_blue": true,
+	"gruvbox_accent_green": true,
+	// "gruvbox_accent_orange": true,
+	// "gruvbox_accent_red": true,
+	// "gruvbox_accent_yellow": true,
+	// "gruvbox_accent_pink": true,
+
+
+	"gruvbox_autocomplete_cramped": true,
+
+
+	"gruvbox_autocomplete_border": false,
+	"gruvbox_sideline_autocomplete_row": true,
+	// "gruvbox_sideline_autocomplete_row_thick": true,
+	"gruvbox_sidebar_compact": true,
+	"gruvbox_sidebar_indent_s": true,
+	"gruvbox_sidebar_font_size_13": true,
+	"gruvbox_sidebar_heading_bold": true,
+	"gruvbox_command_palette_cramped": true,
+	"gruvbox_sideline_command_palette_row": true,
+	"gruvbox_statusbar_xxs": true,
+	"gruvbox_statusbar_button_xs": true,
+	"gruvbox_statusbar_font_size_12": true,
+	"gruvbox_tabs_xxs": true,
+	"gruvbox_tabs_font_size_13": true,
+	// "gruvbox_underline_modified_tabs": true
+	"gruvbox_underline_active_tab": true,
+	"gruvbox_panel_xxs": true,
+	// "gruvbox_scrollbar_width_s": true,
+	"gruvbox_buttons_font_size_12": true,
+
+	"gruvbox_folder_icons_large": true,
+	// "gruvbox_folder_icons_plus_minus": true,
+	// "gruvbox_folder_icons_spacegray": true,
+	// "gruvbox_folder_icons_circle": true,
+
+	"gruvbox_iconset_midstroke": true,
+	// "gruvbox_iconset_thick": true
+	// "gruvbox_iconset_spacegray": true,
+
+	"gruvbox_animate_icons": true,              // Enable icon animations
+  	"gruvbox_buttons_bold": true,               // Enable bold button labels
+  	// "gruvbox_colored_tooltips": true,           // Color the tooltip backgrounds with the current accent color
+  	"gruvbox_disable_faded_file_icons": true,   // Make file-type icons opaque
+  	// "gruvbox_disable_file_icons": true,         // Disable the sidebar file icons
+  	// "gruvbox_disable_folder_icons": true,       // Disable the sidebar folder icons
+  	"gruvbox_disable_greyscale": true,          // Use gruvbox colors instead of greyscale colors for certain text
+  	"gruvbox_disable_panels_button": true,      // Hide the panel-switching button
+  	"gruvbox_enable_panel_close_button": true,  // Enable the panel close button
+  	"gruvbox_highlight_active_buttons": true,   // Highlight selected buttons in the Find & Replace panel
+  	"gruvbox_highlight_active_tree_row": true,  // Highlight the active file in the sidebar tree
+  	"gruvbox_less_contrast": true,              // Use less contrasting colors in sidebar, tabs, etc.
+  	"gruvbox_statusbar_bold": true,             // Enable bold status bar labels
+  	// "gruvbox_tabs_autowidth": true,             // Auto-size the tabs
+  	"gruvbox_tabs_bold": true,                  // Enable bold tabs
+}

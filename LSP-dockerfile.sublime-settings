@@ -1,0 +1,14 @@
+{
+	"settings": {
+		"enabled": false,
+		"docker": {
+			"languageserver": {
+				"diagnostics": {
+					// just let me ignore your stupid convention
+					// and write dockerfile in lowercase 
+					"instructionCasing": "ignore"
+				}
+			}
+		}
+	},
+}

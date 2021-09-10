@@ -1,0 +1,300 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+    "variables": {
+        "custom_accent_color": "var(green)"
+    },
+    "rules": [
+
+        {
+            "class": "quick_panel_label",
+            "font.face": "SF Pro Display",
+            "font.size": 15,
+        },
+
+
+        /////// INPUTS AND BOTTOM PANELS
+
+        {
+            "class": "icon_button_control",
+            "layer0.inner_margin": 8,
+            "content_margin": 2
+        },
+        {
+          "class": "icon_regex",
+          "content_margin": [11, 11],
+        },
+        {
+          "class": "icon_case",
+          "content_margin": [11, 11],
+        },
+        {
+          "class": "icon_whole_word",
+          "content_margin": [11, 11],
+        },
+        {
+          "class": "icon_wrap",
+          "content_margin": [11, 11],
+        },
+        {
+          "class": "icon_in_selection",
+          "content_margin": [11, 11],
+        },
+        {
+          "class": "icon_highlight",
+          "content_margin": [11, 11],
+        },
+
+        {
+          "class": "button_control",
+          "layer0.inner_margin": 4,
+          "content_margin": [5, 4.5]
+        },
+
+        {
+            "class": "dropdown_button_control",
+            "layer0.tint": "white",
+            "content_margin": [9, 9, 9, 9]
+        },
+
+        
+        {
+            "class": "panel_control",
+            "layer0.opacity": 1.0,
+            "content_margin": 2
+        },
+
+        {
+            "class": "panel_grid_control",
+            "inside_spacing": 8,
+            "outside_hspacing": 4,
+            "outside_vspacing": 4
+        },
+
+        {
+            "class": "icon_button_group",
+            "spacing": 8
+        },
+
+     
+
+        {
+            "class": "tool_tip_control",
+            "content_margin": [8, 3, 8, 3]
+        },
+
+        {
+            "class": "text_line_control",
+            "layer0.opacity": 1.0,
+            "layer0.inner_margin": 2,
+            "tint_index": 0,
+            "content_margin": 4,
+        },
+
+        //////////////////////////////// TABS
+
+        {
+            "class": "tabset_control",
+            "tab_height": 28,
+
+            "layer1.inner_margin": [
+                0,
+                2,
+                0,
+                0
+            ],
+        },
+
+        {
+            "class": "tab_control",
+            "content_margin": [
+                12,
+                0,
+                8,
+                0
+            ],
+    
+            "layer2.inner_margin": [
+                0,
+                2,
+                0,
+                0
+            ],
+        },
+
+        {
+            "class": "tab_label",
+            "font.size": 12,
+            "font.bold": false,
+            "font.face": "Fira Sans",
+        },
+        
+        //////// SIDEBAR
+
+        {
+            "class": "sidebar_tree",
+            "row_padding": [
+                10,
+                2
+            ],
+            "indent": 20,
+        },
+
+        {
+            "class": "sidebar_label",
+            "font.face": "Fira Sans",
+            "font.size": 12,
+            "color": "#928371",
+
+            "parents": [
+                // {
+                    // "class": "window",
+                    // "attributes": [
+                        // "file_medium_dark"
+                    // ]
+                // }
+            ],
+        },
+
+        {
+            "class": "sidebar_label",
+            "font.face": "Fira Sans",
+            "font.size": 12,
+            "color": "#d4be91",
+
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "hover"
+                    ]
+                }
+            ],
+        },
+
+        {
+            "class": "sidebar_label",
+            "font.face": "Fira Sans",
+            "font.size": 12,
+            "color": "#d4be91",
+
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "selected"
+                    ]
+                }
+            ],
+        },
+
+        {
+            "class": "sidebar_label",
+            "font.face": "Fira Sans",
+            "font.size": 12,
+            "color": "var(custom_accent_color)",
+
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expandable",
+                        "hover"
+                    ]
+                }
+            ],
+        },
+
+        {
+            "class": "sidebar_label",
+            "font.face": "Fira Sans Medium",
+            "font.size": 12,
+            "font.bold": false,
+            "parents": [
+                 {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expandable",
+                    ]
+                }
+            ],
+        },
+
+        {
+            "class": "sidebar_label",
+            "parents": [
+                 {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expandable",
+                        "expanded"
+                    ]
+                }
+            ],
+            "color": "var(custom_accent_color)"
+        },
+
+        {
+            "class": "tree_row",
+            "layer0.tint": "#313134"
+        },
+
+        // */
+
+        {
+            "class": "sidebar_container",
+            "content_margin": [
+                0,
+                12,
+                3,
+                0
+            ],
+            "layer1.inner_margin": [
+                0,
+                0,
+                3,
+                0,
+            ]
+        },
+
+
+        /////////////////////////////////// SIDEBAR ICONS
+
+        {
+            "class": "icon_file_type",
+            "layer0.tint": [
+                255,
+                255,
+                255
+            ],
+            "layer0.opacity": 0.75,
+            "content_margin": [
+                8,
+                8
+            ]
+        },
+        {
+            "class": "icon_file_type",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "hover"
+                    ]
+                }
+            ],
+            "layer0.opacity": 0.5
+        },
+        {
+            "class": "icon_file_type",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "selected"
+                    ]
+                }
+            ],
+            "layer0.opacity": 1.0
+        }
+    ]
+}
