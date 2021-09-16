@@ -2,5 +2,6 @@
 	"extensions":
 	[
 		"bashrc",
+		"zsh-theme",
 	],
 }

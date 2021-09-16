@@ -14,6 +14,8 @@
 		// "no_liga",
 		// "no_clig",
 		// "no_calt",
+		"ss01",
+		"dlig",
 		"no_round",
 		"no_italic",
 		"gray_antialias",
@@ -23,9 +25,11 @@
 	"ignored_packages":
 	[
 		"Diff",
+		"LSP-json",
 		"Vintage",
 	],
 	"remember_open_files": false,
+	"remember_workspace": false,
 	"show_git_status": false,
 	"mini_diff": false,
 	"theme": "gruvbox.sublime-theme",
