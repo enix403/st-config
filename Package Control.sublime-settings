@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"1337 Color Scheme",
 		"A File Icon",
 		"AlignTab",
 		"CMake",
@@ -24,6 +25,7 @@
 		"LSP-dockerfile",
 		"LSP-json",
 		"LSP-pyright",
+		"LSP-rust-analyzer",
 		"LSP-typescript",
 		"MarkdownPreview",
 		"Maybs Quit",

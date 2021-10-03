@@ -20,24 +20,32 @@
 				"-async-preamble=false"
 				// "-ranking-model=heuristics"
 			],
-			"enabled": false
+			"enabled": false,
 		},
-		"rust-analyzer": {"enabled": false},
-		"erlang-ls": {"enabled": false},
-		"ocaml": {"enabled": false},
-		"gopls": {"enabled": false},
-		"polymer-ide": {"enabled": false},
-		"ruby": {"enabled": false},
-		"sorbet": {"enabled": false},
+		"rust-analyzer": {"enabled": false,},
+		"erlang-ls": {"enabled": false,},
+		"ocaml": {"enabled": false,},
+		"gopls": {"enabled": false,},
+		"polymer-ide": {"enabled": false,},
+		"ruby": {"enabled": false,},
+		"sorbet": {"enabled": false,},
 
 
 		// Actually these (external) packages should be disabled
 		// in there respective setting files, not here 
-		"LSP-dockerfile": { "enabled": false },
-		"LSP-pyright": { "enabled": false },
-		"LSP-bash": { "enabled": false },
-		"LSP-Dart": { "enabled": false }, 
+		"LSP-dockerfile": { "enabled": false, },
+		"LSP-pyright": { "enabled": false, },
+		"LSP-bash": { "enabled": false, },
+		"LSP-Dart": { "enabled": false, }, 
 
+		"LSP-typescript":
+		{
+			"enabled": true,
+		},
+		"LSP-json":
+		{
+			"enabled": false,
+		},
 	},
 
 	// "only_show_lsp_completions": true,

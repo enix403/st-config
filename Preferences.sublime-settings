@@ -3,7 +3,7 @@
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
 	"caret_style": "smooth",
-	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Hard) NDC.sublime-color-scheme",
+	"color_scheme": "Packages/Gruvbox Material Theme/Gruvbox Material Dark/Gruvbox Material Dark.sublime-color-scheme",
 	
 	"font_face": "Fira Code",
 	// "font_face": "Inconsolata",
@@ -14,27 +14,38 @@
 		// "no_liga",
 		// "no_clig",
 		// "no_calt",
-		"ss01",
-		"dlig",
 		"no_round",
 		"no_italic",
+		"subpixel_antialias",
 		"gray_antialias",
-		"subpixel_antialias"
+		// "dlig",
+		// "ss01",
+		// "ss02",
+		"ss03", // alternate &
+		// "ss04",
+		// "ss05",
+		// "ss06",
+		// "ss07",
+		// "ss08",
+		// "ss09",
+		// "ss10",
 	],
 	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Diff",
-		"LSP-json",
+		"SideBarTools",
 		"Vintage",
 	],
-	"remember_open_files": false,
+	"remember_full_screen": false,
 	"remember_workspace": false,
+	"remember_open_files": false,
 	"show_git_status": false,
 	"mini_diff": false,
 	"theme": "gruvbox.sublime-theme",
 	"ui_scale": 0.0,
 	"preview_on_click": false,
+	"word_wrap": true,
 
 	"translate_tabs_to_spaces": true,
     "overlay_scroll_bars": "enabled",
@@ -54,6 +65,7 @@
     	".hg",
     	"CVS",
     	"__pycache__",
+    	"node_modules",	
 	],
 
 	// Files that should show up in sidebar
@@ -83,8 +95,9 @@
     	
     	".venv/*",
     	".git/*",
-    	"node_modules/*",
+    	"build/*",
     	"*.min.css",
+    	"node_modules/*",
     	".cache/*",
 	],
 

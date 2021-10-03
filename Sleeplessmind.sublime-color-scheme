@@ -26,7 +26,7 @@
     "rules":
     [
         {
-            "scope": "source - comment - string - keyword - punctuation - storage - entity - source.css",
+            "scope": "source - comment - string - keyword - punctuation - storage - variable.other - source.css",
             "foreground": ["var(green)", "var(purple)"]
         },
     ]

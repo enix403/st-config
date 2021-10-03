@@ -1,0 +1,8 @@
+// Settings in here override those in "LSP-rust-analyzer/LSP-rust-analyzer.sublime-settings"
+{
+    "enabled": false,
+    "settings": {
+
+        "rust-analyzer.inlayHints.enable": false,
+    },
+}
