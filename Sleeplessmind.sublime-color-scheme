@@ -1,7 +1,6 @@
 // Documentation at https://www.sublimetext.com/docs/color_schemes.html
 {
-    "variables":
-    {
+    "variables": {
         // These colors are part of the hashed range
         // and should only be used in non-source
         "purple": "hsla(260, 50%, 60%, 1)",
@@ -20,14 +19,104 @@
         "dark_gray": "#333",
         "black": "black"
     },
-    "globals":
-    {
-    },
-    "rules":
-    [
+    "globals": {},
+    "rules": [
         {
-            "scope": "source - comment - string - keyword - punctuation - storage - variable.other - source.css",
-            "foreground": ["var(green)", "var(purple)"]
+            "scope": "source.c++, source.c - comment - string - keyword - punctuation - storage - variable.other - source.css",
+            "foreground": [
+                "var(green)",
+                "var(purple)"
+            ]
         },
+        {
+            "name": "Functions definition",
+            "scope": "entity.name.function",
+            "foreground": "#e65f12"
+        },
+        {
+            "name": "Functions/constructor call",
+            "scope": "meta.function-call.constructor variable.type, meta.function-call variable.function",
+            "foreground": "#8f9611"
+        },
+        {
+            "name": "Class definition",
+            "scope": "entity.name.class",
+            "foreground": "#07ba79"
+        },
+        {
+            "name": "interface definition",
+            "scope": "entity.name.interface",
+            "foreground": "#07ba79"
+        },
+        {
+            "name": "Class inherit usage",
+            "scope": "entity.other.inherited-class",
+            "foreground": "#81ba07"
+        },
+        {
+            "name": "native types",
+            "scope": "support.type - source.css - source.scss",
+            "foreground": "#626d9c"
+        },
+        {
+            "name": "builtin constant",
+            "scope": "support.constant",
+            // "foreground": "#a214b5"
+            // "foreground": "#c01cd6"
+            "foreground": "#d6135e"
+        },
+        {
+            "name": "JSON Keys",
+            "scope": "meta.mapping.key.json string,meta.structure.dictionary.key.json string",
+            "foreground": "#83A598"
+        },
+        {
+            "name": "JSX/XML/HTML Tag Name",
+            "scope": "meta.tag entity.name.tag",
+            // "foreground": "#ab5c5c"
+            "foreground": "#bf5e5e"
+        },
+        {
+            "name": "JSX/XML/HTML attribute/props",
+            "scope": "entity.other.attribute-name",
+            "foreground": "#7a915c"
+        },
+        {
+            "name": "JSX/XML/HTML Tag Angle brackets",
+            "scope": "punctuation.definition.tag.begin, punctuation.definition.tag.end",
+            "foreground": "#7c7364"
+        },
+        {
+            "name": "JSX/XML/HTML Tag Angle brackets",
+            "scope": "meta.property-name.css",
+            "foreground": "#0e8ba1"
+        },
+        {
+            "name": "operator keyword",
+            "scope": "keyword.operator",
+            // "foreground": "#425c5a"
+            "foreground": "#4c7874"
+        },
+        {
+            "name": "Css comma",
+            "scope": "meta.selector.css punctuation.separator.sequence.css, punctuation.separator.css",
+            "foreground": "#81ba07"
+        },
+        {
+            "name": "Css elemenets selectors",
+            "scope": "meta.selector.css entity.name.tag.html.css, entity.name.tag.css",
+            "foreground": "#d65e13"
+        },
+        {
+            "name": "Css class and ids selector",
+            "scope": "meta.selector.css entity.other.attribute-name.class.css",
+            "foreground": "#89940a"
+        },
+        {
+            "name": "Css psuedo selector",
+            "scope": "punctuation.definition.pseudo-element.css, punctuation.definition.pseudo-class.css, entity.other.pseudo-element.css, entity.other.pseudo-class.css",
+            "foreground": "#d6135a"
+        },
+
     ]
 }
