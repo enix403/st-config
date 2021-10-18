@@ -21,13 +21,13 @@
     },
     "globals": {},
     "rules": [
-        {
-            "scope": "source.c++, source.c - comment - string - keyword - punctuation - storage - variable.other - source.css",
-            "foreground": [
-                "var(green)",
-                "var(purple)"
-            ]
-        },
+        // {
+        //     "scope": "source.c++, source.c - comment - string - keyword - punctuation - storage - variable.other - source.css",
+        //     "foreground": [
+        //         "var(green)",
+        //         "var(purple)"
+        //     ]
+        // },
         {
             "name": "Functions definition",
             "scope": "entity.name.function",
@@ -35,12 +35,12 @@
         },
         {
             "name": "Functions/constructor call",
-            "scope": "meta.function-call.constructor variable.type, meta.function-call variable.function",
+            "scope": "meta.method-call variable.function, meta.function-call.constructor variable.type, meta.function-call variable.function",
             "foreground": "#8f9611"
         },
         {
             "name": "Class definition",
-            "scope": "entity.name.class",
+            "scope": "entity.name.class, entity.name.struct, entity.name.enum",
             "foreground": "#07ba79"
         },
         {
@@ -55,7 +55,7 @@
         },
         {
             "name": "native types",
-            "scope": "support.type - source.css - source.scss",
+            "scope": "storage.type, support.type - source.css - source.scss",
             "foreground": "#626d9c"
         },
         {
