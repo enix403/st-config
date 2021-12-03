@@ -58,4 +58,11 @@
 
 	"inhibit_snippet_completions": true,
 	"inhibit_word_completions": true,
+
+	"diagnostics_highlight_style": {
+		"error": "squiggly",
+		"warning": "squiggly",
+		"info": "stippled",
+		"hint": "stippled"
+	},
 }

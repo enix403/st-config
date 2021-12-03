@@ -66,6 +66,11 @@
             "foreground": "#d6135e"
         },
         {
+            "name": "this keyword",
+            "scope": "variable.language.this",
+            "foreground": "#188c52"
+        },
+        {
             "name": "JSON Keys",
             "scope": "meta.mapping.key.json string,meta.structure.dictionary.key.json string",
             "foreground": "#83A598"
