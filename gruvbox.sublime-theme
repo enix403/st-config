@@ -7,8 +7,8 @@
     "rules": [
         {
             "class": "quick_panel_label",
-            "font.face": "SFNS Display",
-            "font.size": 15,
+            "font.face": "Fira Sans Medium",
+            "font.size": 13.5
         },
         /////// INPUTS AND BOTTOM PANELS
         {

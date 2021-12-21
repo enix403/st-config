@@ -39,13 +39,16 @@
             "foreground": "#8f9611"
         },
         {
-            "name": "Class definition",
-            "scope": "entity.name.class, entity.name.struct, entity.name.enum",
-            "foreground": "#07ba79"
+            "name": "Decorators/Annotations",
+            "scope": "variable.annotation",
+            // Use the below rule to also include the @ sign before most annotations
+            // "scope": "punctuation.definition.annotation, variable.annotation",
+            // "foreground": "#ef8888",
+            "foreground": "#8D70AA"
         },
         {
-            "name": "interface definition",
-            "scope": "entity.name.interface",
+            "name": "Class/interface definition",
+            "scope": "entity.name.class, entity.name.struct, entity.name.enum, entity.name.interface",
             "foreground": "#07ba79"
         },
         {
@@ -122,6 +125,17 @@
             "scope": "punctuation.definition.pseudo-element.css, punctuation.definition.pseudo-class.css, entity.other.pseudo-element.css, entity.other.pseudo-class.css",
             "foreground": "#d6135a"
         },
+
+        {
+            "name": "Django HTML corrections",
+            "scope": "text.html.django storage.type string.unquoted.tag-string.django",
+            "foreground": "#929292"
+        },
+        {
+            "name": "Django HTML corrections",
+            "scope": "text.html.django storage.type.templatetag.django entity.tag.tagbraces.django",
+            "foreground": "#929292"
+        }
 
     ]
 }
