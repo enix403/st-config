@@ -14,6 +14,17 @@
 
         "ccolor_autocomplete_active_row": "#2e3647",
         "ccolor_autocomplete_active_row_border": "#29AED2",
+
+        "ccolor_tab_bar_bg": "#2e3440",
+
+        "ccolor_tab_selected_bg": "#3b4252",
+        "ccolor_tab_selected_fg": "#d8dee9",
+
+        "ccolor_tab_inactive_bg": "#2e3440",
+        "ccolor_tab_inactive_fg": "#727884",
+
+        "ccolor_tab_hovered_bg": "#383E4E",
+        "ccolor_tab_hovered_fg": "#d8dee9",
     },
     "rules": [
         { "class": "quick_panel_label", "font.face": "Fira Sans Medium", "font.size": 13.5 },
@@ -42,9 +53,57 @@
         /* ========================= TABS ======================== */
         /* ======================================================= */
 
-        { "class": "tabset_control", "tab_height": 28, "layer1.inner_margin": [ 0, 2, 0, 2 ], "layer0.tint": "#2e3440" },
-        { "class": "tab_control", "content_margin": [ 12, 0, 8, 0 ], "layer2.inner_margin": [0, 2, 0, 2], },
-        { "class": "tab_label", "font.size": 12, "font.bold": false, "font.face": "Fira Sans Medium", },
+        { 
+            "class": "tabset_control", 
+            "tab_height": 28, 
+            "layer1.inner_margin": [ 0, 2, 0, 2 ], 
+            "layer0.tint": "var(ccolor_tab_bar_bg)" // Tab bar
+        },
+        { 
+            "class": "tab_control",  // Single tab
+            "content_margin": [ 12, 0, 8, 0 ], 
+            "layer2.inner_margin": [0, 2, 0, 2],
+        },
+        // [left, top, right, bottom]
+
+        {"class": "tab_control", "layer0.tint": "var(ccolor_tab_selected_bg)", "attributes": ["selected"]},
+        { "class": "tab_control", "attributes": ["!selected"], "layer0.tint": "var(ccolor_tab_inactive_bg)",
+            "layer2.inner_margin": [1, 2, 1, 2]},
+        {"class": "tab_control", "layer0.tint": "var(ccolor_tab_hovered_bg)", "attributes": ["hover"]},
+
+        { 
+            "class": "tab_label",  // Tab Text (all)
+            "font.size": 12, 
+            "font.bold": false, 
+            "font.face": "Fira Sans Medium",
+        },
+
+        {
+            "class": "tab_label",
+            "parents": [{
+                "class": "tab_control",
+                "attributes": ["selected"]
+            }],
+            "color": "var(ccolor_tab_selected_fg)",
+        },
+
+        {
+            "class": "tab_label",
+            "parents": [{
+                "class": "tab_control",
+                "attributes": ["!selected"]
+            }],
+            "color": "var(ccolor_tab_inactive_fg)",
+        },
+
+        {
+            "class": "tab_label",
+            "parents": [{
+                "class": "tab_control",
+                "attributes": ["hover"]
+            }],
+            "color": "var(ccolor_tab_hovered_fg)",
+        },
 
         /* ========================================================== */
         /* ========================= SIDEBAR ======================== */
