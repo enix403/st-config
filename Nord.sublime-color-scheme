@@ -1,0 +1,113 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+    "variables": {},
+    "globals": {},
+    "rules":
+    [
+        {
+            "scope": "keyword.declaration.enum.type, keyword.declaration.struct.type, keyword.declaration.class",
+            "foreground": "#81A1C1"
+        },
+        {
+            "scope": "constant.numeric.suffix.c++",
+            "foreground": "#81A1C1"
+        },
+
+         /* ==================== L S P - S E M A N T I C - H I G H L I G H T I N G :) ====================*/
+
+        {
+            "scope": "meta.semantic-token",
+            "background": "#00000101"
+        },
+
+        {
+            "scope": "meta.semantic-token.namespace",
+            "foreground": "#D8DEE9"
+        },
+        {
+            "scope": "meta.semantic-token.type",
+            "foreground": "#8FBCBB"
+        },
+        {
+            "scope": "meta.semantic-token.class",
+            "foreground": "#8FBCBB"
+        },
+        {
+            "scope": "meta.semantic-token.enum",
+            "foreground": "#D8DEE9"
+        },
+        // {
+        //     "scope": "meta.semantic-token.interface",
+        //     "foreground": "#b48ead"
+        // },
+        // {
+        //     "scope": "meta.semantic-token.struct",
+        //     "foreground": "#ff0000"
+        // },
+        {
+            "scope": "meta.semantic-token.typeparameter",
+            "foreground": "#D8DEE9"
+        },
+        {
+            "scope": "meta.semantic-token.parameter",
+            "foreground": "#D8DEE9"
+        },
+        {
+            "scope": "meta.semantic-token.variable",
+            "foreground": "#D8DEE9"
+        },
+        {
+            "scope": "meta.semantic-token.property",
+            "foreground": "#D8DEE9"
+        },
+        {
+            "scope": "meta.semantic-token.enummember",
+            "foreground": "#D8DEE9"
+        },
+        // {
+        //     "scope": "meta.semantic-token.event",
+        //     "foreground": "#ff0000"
+        // },
+        {
+            "scope": "meta.semantic-token.function",
+            "foreground": "#88C0D0"
+        },
+        {
+            "scope": "meta.semantic-token.method",
+            "foreground": "#88C0D0"
+        },
+        {
+            "scope": "meta.semantic-token.macro",
+            "foreground": "#88C0D0"
+        },
+        // {
+        //     "scope": "meta.semantic-token.keyword",
+        //     "foreground": "#ff0000"
+        // },
+        // {
+        //     "scope": "meta.semantic-token.modifier",
+        //     "foreground": "#ff0000"
+        // },
+        // {
+        //     "scope": "meta.semantic-token.comment",
+        //     "foreground": "#616E88"
+        // },
+        // {
+        //     "scope": "meta.semantic-token.string",
+        //     "foreground": "#ff0000"
+        // },
+        // {
+        //     "scope": "meta.semantic-token.number",
+        //     "foreground": "#ff0000"
+        // },
+        // {
+        //     "scope": "meta.semantic-token.regexp",
+        //     "foreground": "#ff0000"
+        // },
+        // {
+        //     "scope": "meta.semantic-token.operator",
+        //     "foreground": "#ff0000"
+        // },
+
+    ]
+}

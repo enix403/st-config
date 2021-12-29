@@ -6,10 +6,12 @@
 	"color_scheme": "Nord.sublime-color-scheme",
 	
 	"font_face": "Fira Code",
-	// "font_size": 11.5,
-	// "ui_scale": 1,
-	"font_size": 9.5,
-	"ui_scale": 1.2,
+
+	"font_size": 10,
+	"ui_scale": 1.02,
+
+	// "font_size": 9.5,
+	// "ui_scale": 1.2,
 
 	// "font_face": "Monoid",
 
@@ -22,7 +24,6 @@
 		"no_italic",
 		"subpixel_antialias",
 		"gray_antialias",
-		// "dlig",
 		// "ss01",
 		// "ss02",
 		"ss03", // alternate &

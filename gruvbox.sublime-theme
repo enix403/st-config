@@ -73,9 +73,9 @@
 
         { 
             "class": "tab_label",  // Tab Text (all)
-            "font.size": 12, 
+            "font.size": 13.4, 
             "font.bold": false, 
-            "font.face": "Fira Sans Medium",
+            "font.face": "Fira Sans",
         },
 
         {
@@ -126,7 +126,7 @@
         { // Folders (all)
             "class": "sidebar_label",
             "font.face": "Fira Sans",
-            "font.size": 12,
+            "font.size": 14.1,
             "parents": [{"class": "tree_row", "attributes": [
                 "expandable"
             ]}],
@@ -135,7 +135,7 @@
         { // Files (all), overridden by next rules
             "class": "sidebar_label",
             "font.face": "Fira Sans",
-            "font.size": 13,
+            "font.size": 14.2,
             "color": "var(ccolor_files_base)",
             "parents": [{"class": "tree_row", "attributes": [
                 "!expandable" // = not folder = not file
