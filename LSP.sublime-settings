@@ -65,4 +65,6 @@
 		"info": "stippled",
 		"hint": "stippled"
 	},
+
+	"semantic_highlighting": true
 }

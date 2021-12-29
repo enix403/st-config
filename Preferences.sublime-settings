@@ -3,18 +3,22 @@
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
 	"caret_style": "smooth",
-	"color_scheme": "Packages/Color Scheme - Sleeplessmind/Sleeplessmind.tmTheme",
+	"color_scheme": "Nord.sublime-color-scheme",
 	
 	"font_face": "Fira Code",
-	// "font_face": "Monoid",
+	// "font_size": 11.5,
+	// "ui_scale": 1,
 	"font_size": 9.5,
+	"ui_scale": 1.2,
+
+	// "font_face": "Monoid",
 
 	"font_options":
 	[
 		// "no_liga",
 		// "no_clig",
 		// "no_calt",
-		"no_round",
+		// "no_round",
 		"no_italic",
 		"subpixel_antialias",
 		"gray_antialias",
@@ -43,9 +47,9 @@
 	"show_git_status": false,
 	"mini_diff": false,
 	"theme": "gruvbox.sublime-theme",
-	"ui_scale": 1.2,
 	"preview_on_click": false,
 	"word_wrap": true,
+	"drag_text": false,
 
 	"translate_tabs_to_spaces": true,
     "overlay_scroll_bars": "enabled",
@@ -122,9 +126,9 @@
 	],
 
 	// gruvbox theme
-	// "gruvbox_accent_aqua": true,
+	"gruvbox_accent_aqua": true,
   	// "gruvbox_accent_blue": true,
-	"gruvbox_accent_green": true,
+	// "gruvbox_accent_green": true,
 	// "gruvbox_accent_orange": true,
 	// "gruvbox_accent_red": true,
 	// "gruvbox_accent_yellow": true,
