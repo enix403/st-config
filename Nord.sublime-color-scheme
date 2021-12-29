@@ -5,7 +5,7 @@
     "rules":
     [
         {
-            "scope": "keyword.declaration.enum.type, keyword.declaration.struct.type, keyword.declaration.class",
+            "scope": "keyword.declaration.enum.type, keyword.declaration.struct.type, keyword.declaration.class, keyword.declaration.template, meta.template.c++ keyword.declaration.c++",
             "foreground": "#81A1C1"
         },
         {
@@ -22,7 +22,14 @@
 
         {
             "scope": "meta.semantic-token.namespace",
-            "foreground": "#D8DEE9"
+            // "foreground": "#D8DEE9",
+            // "foreground": "#b48ead",
+            "foreground": "#b4b08e",
+        },
+        {
+            "scope": "meta.semantic-token.namespace.declaration",
+            "foreground": "#D8DEE9",
+            // "foreground": "#0000ff",
         },
         {
             "scope": "meta.semantic-token.type",
@@ -34,7 +41,8 @@
         },
         {
             "scope": "meta.semantic-token.enum",
-            "foreground": "#D8DEE9"
+            // "foreground": "#D8DEE9",
+            "foreground": "#bd93f9",
         },
         // {
         //     "scope": "meta.semantic-token.interface",
@@ -46,7 +54,8 @@
         // },
         {
             "scope": "meta.semantic-token.typeparameter",
-            "foreground": "#D8DEE9"
+            // "foreground": "#D8DEE9"
+            "foreground": "#70cc97"
         },
         {
             "scope": "meta.semantic-token.parameter",
@@ -62,7 +71,8 @@
         },
         {
             "scope": "meta.semantic-token.enummember",
-            "foreground": "#D8DEE9"
+            // "foreground": "#D8DEE9"
+            "foreground": "#c78f52",
         },
         // {
         //     "scope": "meta.semantic-token.event",
