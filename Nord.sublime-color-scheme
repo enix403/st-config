@@ -5,12 +5,21 @@
     "rules":
     [
         {
-            "scope": "keyword.declaration.enum.type, keyword.declaration.struct.type, keyword.declaration.class, keyword.declaration.template, meta.template.c++ keyword.declaration.c++",
+            // "scope": "keyword.declaration.enum.type, keyword.declaration.struct.type, keyword.declaration.class, keyword.declaration.template, meta.template.c++ keyword.declaration.c++, keyword.declaration.type, keyword.declaration.function.python",
+            "scope": "keyword.declaration",
             "foreground": "#81A1C1"
         },
         {
-            "scope": "constant.numeric.suffix.c++",
+            "scope": "constant.numeric.suffix",
             "foreground": "#81A1C1"
+        },
+        {
+            "name": "Decorators/Annotations",
+            "scope": "variable.annotation",
+            // Use the below rule to also include the @ sign before most annotations
+            // "scope": "punctuation.definition.annotation, variable.annotation",
+            // "foreground": "#ef8888",
+            "foreground": "#b48ead"
         },
 
          /* ==================== L S P - S E M A N T I C - H I G H L I G H T I N G :) ====================*/

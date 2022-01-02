@@ -126,7 +126,7 @@
         { // Folders (all)
             "class": "sidebar_label",
             "font.face": "Fira Sans",
-            "font.size": 14.1,
+            "font.size": 14,
             "parents": [{"class": "tree_row", "attributes": [
                 "expandable"
             ]}],
@@ -135,7 +135,7 @@
         { // Files (all), overridden by next rules
             "class": "sidebar_label",
             "font.face": "Fira Sans",
-            "font.size": 14.2,
+            "font.size": 13.7,
             "color": "var(ccolor_files_base)",
             "parents": [{"class": "tree_row", "attributes": [
                 "!expandable" // = not folder = not file
@@ -163,14 +163,25 @@
         /* ================================================================ */
 
         { "class": "icon_file_type", "layer0.tint": [255, 255, 255], "layer0.opacity": 0.75, "content_margin": [8, 8] }, // Normal file icon
-        // { "class": "icon_file_type", "parents": [{ "class": "tree_row", "attributes": ["hover"] }], "layer0.opacity": 0.5 }, // Hovered file icon
+        { "class": "icon_file_type", "parents": [{ "class": "tree_row", "attributes": ["hover"] }], "layer0.opacity": 0.5 }, // Hovered file icon
         { "class": "icon_file_type", "parents": [{ "class": "tree_row", "attributes": ["selected"] }], "layer0.opacity": 1.0 }, // Selected file icon
 
         /* ============================================================ */
         /* ========================= SCROLLBAR ======================== */
         /* ============================================================ */
 
-        { "class": "puck_control", "layer0.tint": "#3C4454",  "layer0.opacity": 1.0, "layer1.opacity": 0.0, "layer0.inner_margin": 10},
+        // { "class": "puck_control", "layer0.tint": "#ff0000",  "layer0.opacity": 1.0, "layer1.opacity": 1.0, "layer0.inner_margin": 10},
+        { 
+            "class": "puck_control",
+            "layer0.tint": "#3C4454",
+            "layer0.opacity": 1.0,
+            "layer0.inner_margin": 2,
+            
+            "layer1.tint": "#3C4454",
+            "layer1.opacity": 1.0,
+            "layer1.inner_margin": 16,
+        },
+
 
         /* ============================================================== */
         /* ========================= AUTOCOMPLETE ======================= */

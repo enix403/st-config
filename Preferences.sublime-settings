@@ -1,6 +1,6 @@
 {
-	"caret_extra_bottom": 2,
-	"caret_extra_top": 2,
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
 	"caret_extra_width": 1,
 	"caret_style": "smooth",
 	"color_scheme": "Nord.sublime-color-scheme",
