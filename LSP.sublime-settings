@@ -8,17 +8,17 @@
 		"clangd": {
 			"command": [
 				"/usr/bin/clangd",
-				"-all-scopes-completion=true",
-				"-debug-origin",
+				"-all-scopes-completion=false",
+				// "-debug-origin",
 				"-header-insertion=never",
 				"-completion-style=bundled",
 				"-limit-results=100",
-				"-ranking-model=decision_forest",
 				"-background-index",
 				"-include-ineligible-results=false",
 				"-header-insertion-decorators",
-				"-async-preamble=false"
-				// "-ranking-model=heuristics"
+				"-async-preamble=false",
+				// "-ranking-model=decision_forest",
+				"-ranking-model=heuristics"
 			],
 			"enabled": false,
 		},

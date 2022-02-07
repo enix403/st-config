@@ -176,4 +176,6 @@
     },
     { "keys": ["ctrl+w"], "command": "close_file" },
 
+    // { "keys": ["shift+space"], "command": "run_macro_file", "args": {"file": "Packages/User/expand_snippet.sublime-macro"} }
+
 ]

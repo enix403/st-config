@@ -110,7 +110,7 @@
         /* ========================================================== */
 
         { "class": "sidebar_container", "content_margin": [0, 12, 3, 0], "layer1.inner_margin": [0, 0, 3, 0] },
-        { "class": "sidebar_tree", "row_padding": [10, 2], "indent": 20, },
+        { "class": "sidebar_tree", "row_padding": [10, -1], "indent": 20, },
 
         { 
             "class": "sidebar_container",

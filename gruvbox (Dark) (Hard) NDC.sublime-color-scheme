@@ -25,7 +25,6 @@
     [
         {
             "scope": "source.jsx, source.tsx, source.js, source.ts, source.python, source.c++, source.c - comment - string - keyword - punctuation - storage - entity - source.css",
-            // "scope": "source - comment - string - keyword - punctuation - storage - entity - source.css",
             "foreground": ["var(green_o)", "var(blue_o)"]
         },
         {

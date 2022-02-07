@@ -4,6 +4,7 @@
     "globals": {},
     "rules":
     [
+
         {
             // "scope": "keyword.declaration.enum.type, keyword.declaration.struct.type, keyword.declaration.class, keyword.declaration.template, meta.template.c++ keyword.declaration.c++, keyword.declaration.type, keyword.declaration.function.python",
             "scope": "keyword.declaration",
@@ -22,12 +23,32 @@
             "foreground": "#b48ead"
         },
 
+        {
+            "name": "HTML Entities",
+            "scope": "constant.character.entity.named.html",
+            // "foreground": "#def719"
+            "foreground": "#f7a619"
+        },
+
+        {
+            "name": "Cpp [[...]] annotations",
+            "scope": "source.c++ meta.brackets - punctuation",
+            // "foreground": "#9abd6d",
+            // "foreground": "#bda06d",
+            "foreground": "#bd7a6d",
+        },
+
          /* ==================== L S P - S E M A N T I C - H I G H L I G H T I N G :) ====================*/
 
         {
             "scope": "meta.semantic-token",
             "background": "#00000101"
         },
+
+        // {
+            // "scope": "meta.semantic-token.keyword",
+            // "foreground": "#81a1c1"
+        // },
 
         {
             "scope": "meta.semantic-token.namespace",
@@ -38,7 +59,6 @@
         {
             "scope": "meta.semantic-token.namespace.declaration",
             "foreground": "#D8DEE9",
-            // "foreground": "#0000ff",
         },
         {
             "scope": "meta.semantic-token.type",
@@ -50,17 +70,16 @@
         },
         {
             "scope": "meta.semantic-token.enum",
-            // "foreground": "#D8DEE9",
             "foreground": "#bd93f9",
         },
-        // {
-        //     "scope": "meta.semantic-token.interface",
-        //     "foreground": "#b48ead"
-        // },
-        // {
-        //     "scope": "meta.semantic-token.struct",
-        //     "foreground": "#ff0000"
-        // },
+        {
+            "scope": "meta.semantic-token.interface",
+            "foreground": "#b48ead",
+        },
+        {
+            "scope": "meta.semantic-token.struct",
+            "foreground": "#8FBCBB"
+        },
         {
             "scope": "meta.semantic-token.typeparameter",
             // "foreground": "#D8DEE9"
@@ -99,10 +118,10 @@
             "scope": "meta.semantic-token.macro",
             "foreground": "#88C0D0"
         },
-        // {
-        //     "scope": "meta.semantic-token.keyword",
-        //     "foreground": "#ff0000"
-        // },
+        {
+            "scope": "meta.semantic-token.keyword",
+            "foreground": "#81a1c1"
+        },
         // {
         //     "scope": "meta.semantic-token.modifier",
         //     "foreground": "#ff0000"
@@ -111,10 +130,10 @@
         //     "scope": "meta.semantic-token.comment",
         //     "foreground": "#616E88"
         // },
-        // {
-        //     "scope": "meta.semantic-token.string",
-        //     "foreground": "#ff0000"
-        // },
+        {
+            "scope": "meta.semantic-token.string",
+            "foreground": "#a3be8c"
+        },
         // {
         //     "scope": "meta.semantic-token.number",
         //     "foreground": "#ff0000"
