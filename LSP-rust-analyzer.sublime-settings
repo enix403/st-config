@@ -1,8 +1,26 @@
 // Settings in here override those in "LSP-rust-analyzer/LSP-rust-analyzer.sublime-settings"
 {
     "enabled": false,
+    "disabled_capabilities": {
+        "semanticTokensProvider": true
+    },
     "settings": {
 
+        "rust-analyzer.checkOnSave.enable": false,
         "rust-analyzer.inlayHints.enable": false,
+        "rust-analyzer.cargo.allFeatures": false,
+        "rust-analyzer.cargo.autoreload": false,
+        "rust-analyzer.completion.autoimport.enable": false,
+        "rust-analyzer.completion.autoself.enable": false,
+        "rust-analyzer.completion.postfix.enable": false,
+        "rust-analyzer.highlightRelated.references": false,
+        "rust-analyzer.highlightRelated.yieldPoints": false,
+        "rust-analyzer.highlighting.strings": false,
+        "rust-analyzer.hoverActions.debug": false,
+        "rust-analyzer.hoverActions.references": false,
+        "rust-analyzer.lens.enable": false,
+        "rust-analyzer.procMacro.enable": false,
+        "rust-analyzer.diagnostics.enable": false,
+        "rust-analyzer.completion.addCallParenthesis": false,
     },
 }

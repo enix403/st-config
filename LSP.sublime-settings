@@ -46,6 +46,17 @@
 		{
 			"enabled": false,
 		},
+
+		 "kotlinls": {
+            "enabled": false,
+            "command": ["/usr/share/kotlin/kotlin-language-server/bin/kotlin-language-server"],
+            "selector": "source.Kotlin",
+            "settings": {
+                "kotlin": {
+                    // put your server settings here
+                },
+            },
+        },
 	},
 
 	// "only_show_lsp_completions": true,
@@ -55,16 +66,18 @@
 	"diagnostics_gutter_marker": "dot",
 	"show_code_actions_bulb": true,
 	"show_symbol_action_links": true,
+	"show_diagnostics_panel_on_save": 0,
 
-	"inhibit_snippet_completions": true,
+	"inhibit_snippet_completions": false,
 	"inhibit_word_completions": true,
 
 	"diagnostics_highlight_style": {
 		"error": "squiggly",
 		"warning": "squiggly",
 		"info": "stippled",
-		"hint": "stippled"
+		"hint": "stippled",
 	},
 
-	"semantic_highlighting": true
+	"semantic_highlighting": true,
+	"link_highlight_style": "none",
 }

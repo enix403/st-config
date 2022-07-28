@@ -1,5 +1,22 @@
 // Settings in here override those in "LSP-typescript/LSP-typescript.sublime-settings"
-
 {
-    "enabled": false
+    "enabled": false,
+    "selector": "source.js, source.jsx, source.ts, source.tsx",
+    "initializationOptions": {
+        "preferences": {
+            "allowIncompleteCompletions": false,
+            "allowRenameOfImportPath": false,
+            "allowTextChangesInNewFiles": false,
+            "displayPartsForJSDoc": true,
+            "generateReturnInDocTemplate": true,
+            "includeAutomaticOptionalChainCompletions": false,
+            "includeCompletionsForImportStatements": true,
+            "includeCompletionsForModuleExports": false,
+            "includeCompletionsWithClassMemberSnippets": false,
+            "includeCompletionsWithInsertText": false,
+            "includeCompletionsWithSnippetText": false,
+            "jsxAttributeCompletionStyle": "auto",
+            "providePrefixAndSuffixTextForRename": true,
+        },
+    },
 }

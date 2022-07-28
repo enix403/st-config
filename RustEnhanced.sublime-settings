@@ -1,0 +1,20 @@
+{
+    // Disable check on save and check manually
+    "rust_syntax_checking": false,
+
+    "rust_phantom_style": "normal",
+    "rust_region_style": "squiggly_underline",
+    "rust_gutter_style": "circle",
+    "rust_message_theme": "clear",
+
+    "show_panel_on_build": true,
+
+    "rust_syntax_hide_warnings": false,
+    "rust_message_status_bar": true,
+
+    "rust_syntax_error_color": "var(--pinkish)",
+    "rust_syntax_warning_color": "var(--yellowish)",
+    "rust_syntax_note_color": "var(--greenish)",
+    "rust_syntax_help_color": "var(--bluish)",
+
+}

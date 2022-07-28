@@ -2,9 +2,7 @@
 {
     "variables": {},
     "globals": {},
-    "rules":
-    [
-
+    "rules": [
         {
             // "scope": "keyword.declaration.enum.type, keyword.declaration.struct.type, keyword.declaration.class, keyword.declaration.template, meta.template.c++ keyword.declaration.c++, keyword.declaration.type, keyword.declaration.function.python",
             "scope": "keyword.declaration",
@@ -22,36 +20,64 @@
             // "foreground": "#ef8888",
             "foreground": "#b48ead"
         },
-
         {
             "name": "HTML Entities",
             "scope": "constant.character.entity.named.html",
             // "foreground": "#def719"
             "foreground": "#f7a619"
         },
-
         {
             "name": "Cpp [[...]] annotations",
             "scope": "source.c++ meta.brackets - punctuation",
             // "foreground": "#9abd6d",
-            // "foreground": "#bda06d",
             "foreground": "#bd7a6d",
         },
-
-         /* ==================== L S P - S E M A N T I C - H I G H L I G H T I N G :) ====================*/
-
+        {
+            "name": "Rust: Macros",
+            "scope": "support.macro.rust",
+            "foreground": "#bda06d",
+        },
+        {
+            "name": "Rust type alias target",
+            "scope": "entity.name.type.rust",
+            "foreground": "#bd93f9",
+        },
+        {
+            "name": "Rust: Arrow before return type",
+            "scope": "source.rust meta.function meta.function.return-type punctuation.separator",
+            "foreground": "#db9191"
+        },
+        {
+            "name": "Rust: Trait names after impl keyword",
+            "scope": "source.rust meta.impl.rust - meta.block - punctuation, source.rust meta.impl support.type - meta.block - punctuation",
+            "foreground": "#b48ead"
+        },
+        {
+            "name": "Rust: Struct name after 'impl' keyword",
+            "scope": "meta.impl.rust entity.name.impl",
+            "foreground": "#C78F84"
+        },
+        {
+            "name": "Rust: Struct type name in normal types (variable types + func param types)",
+            "scope": "meta.generic.rust - punctuation.definition - meta.function.return-type - meta.impl, meta.function.rust meta.function.parameters - punctuation - variable",
+            "foreground": "#8FBCBB"
+        },
+        {
+            "name": "Rust: Struct type name in function return types",
+            "scope": "meta.function.rust meta.function.return-type - punctuation",
+            "foreground": "#8FBCBB",
+        },
+        /* ==================== L S P - S E M A N T I C - H I G H L I G H T I N G :) ====================*/
         {
             "scope": "meta.semantic-token",
             "background": "#00000101"
         },
-
         // {
-            // "scope": "meta.semantic-token.keyword",
-            // "foreground": "#81a1c1"
+        // "scope": "meta.semantic-token.keyword",
+        // "foreground": "#81a1c1"
         // },
-
         {
-            "scope": "meta.semantic-token.namespace",
+            "scope": "meta.path.rust, meta.semantic-token.namespace",
             // "foreground": "#D8DEE9",
             // "foreground": "#b48ead",
             "foreground": "#b4b08e",
@@ -77,7 +103,7 @@
             "foreground": "#b48ead",
         },
         {
-            "scope": "meta.semantic-token.struct",
+            "scope": "storage.type.source.rust, meta.semantic-token.struct",
             "foreground": "#8FBCBB"
         },
         {
@@ -111,7 +137,7 @@
             "foreground": "#88C0D0"
         },
         {
-            "scope": "meta.semantic-token.method",
+            "scope": " meta.semantic-token.method",
             "foreground": "#88C0D0"
         },
         {
@@ -131,7 +157,7 @@
         //     "foreground": "#616E88"
         // },
         {
-            "scope": "meta.semantic-token.string",
+            "scope": "source.dart string.interpolated, meta.semantic-token.string",
             "foreground": "#a3be8c"
         },
         // {
@@ -146,6 +172,5 @@
         //     "scope": "meta.semantic-token.operator",
         //     "foreground": "#ff0000"
         // },
-
     ]
 }

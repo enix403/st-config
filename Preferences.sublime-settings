@@ -6,7 +6,9 @@
 	"color_scheme": "Nord.sublime-color-scheme",
 	
 	"font_face": "Fira Code",
+	// "font_face": "Oxygen Mono",
 
+	// "font_size": 10,
 	"font_size": 10,
 	"ui_scale": 1.02,
 
@@ -26,7 +28,7 @@
 		"gray_antialias",
 		// "ss01",
 		// "ss02",
-		"ss03", // alternate &
+		// "ss03", // alternate &
 		// "ss04",
 		// "ss05",
 		// "ss06",
@@ -38,9 +40,20 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"ActionScript",
+		"ASP",
+		"CMakeBuilder",
 		"Diff",
+		"Graphviz",
+		"Jinja2",
+		"LaTeX-cwl",
+		"LSP-bash",
+		"LSP-dockerfile",
+		"LSP-volar",
+		"Rust",
 		"SideBarTools",
 		"Vintage",
+		"WordCount",
 	],
 	"remember_full_screen": false,
 	"remember_workspace": false,
@@ -51,6 +64,8 @@
 	"preview_on_click": false,
 	"word_wrap": true,
 	"drag_text": false,
+
+	"auto_complete_delay": 10,
 
 	"translate_tabs_to_spaces": true,
     "overlay_scroll_bars": "enabled",
@@ -123,6 +138,8 @@
     	"*.sublime-workspace",
     	"*.db-journal",
 
+    	"pubspec.lock",
+
     	"act", // my custom python act file
 	],
 
@@ -183,4 +200,19 @@
   	"gruvbox_statusbar_bold": true,             // Enable bold status bar labels
   	// "gruvbox_tabs_autowidth": true,             // Auto-size the tabs
   	"gruvbox_tabs_bold": true,                  // Enable bold tabs
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html, text.xml",
+		},
+		{
+			"rhs_empty": true,
+			"selector": "punctuation.accessor",
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex",
+		}
+	],
 }
