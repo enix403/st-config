@@ -44,18 +44,25 @@
         },
         {
             "name": "Rust: Arrow before return type",
-            "scope": "source.rust meta.function meta.function.return-type punctuation.separator",
+            "scope": "source.rust meta.function meta.function.return-type punctuation.separator - meta.generic - support.type",
             "foreground": "#db9191"
         },
         {
-            "name": "Rust: Trait names after impl keyword",
-            "scope": "source.rust meta.impl.rust - meta.block - punctuation, source.rust meta.impl support.type - meta.block - punctuation",
+            "name": "Rust: where constraints",
+            "scope": "meta.where.rust",
             "foreground": "#b48ead"
+        },
+        {
+            "name": "Rust: Trait names after impl keyword",
+            "scope": "source.rust meta.impl.rust - meta.block - meta.where - punctuation, source.rust meta.impl support.type - meta.block - punctuation",
+            // "foreground": "#b48ead",
+            "foreground": "#C78F84",
         },
         {
             "name": "Rust: Struct name after 'impl' keyword",
             "scope": "meta.impl.rust entity.name.impl",
-            "foreground": "#C78F84"
+            // "foreground": "#C78F84"
+            "foreground": "#8FBCBB"
         },
         {
             "name": "Rust: Struct type name in normal types (variable types + func param types)",
@@ -75,7 +82,15 @@
         {
             "name": "Rust: Constant reference",
             "scope": "source.rust constant.other",
-            "foreground": "#E7B187"
+            // "foreground": "#E7B187",
+            // "foreground": "#C78F52",
+            "foreground": "#E89898",
+        },
+        {
+            "name": "Rust: Module name after mod",
+            "scope": "entity.name.module.rust",
+            // "foreground": "#CC97B4",
+            "foreground": "#ECA1EA",
         },
         /* ==================== L S P - S E M A N T I C - H I G H L I G H T I N G :) ====================*/
         {
