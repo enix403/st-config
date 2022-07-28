@@ -67,6 +67,16 @@
             "scope": "meta.function.rust meta.function.return-type - punctuation",
             "foreground": "#8FBCBB",
         },
+        {
+            "name": "Rust: Constant declaration",
+            "scope": "source.rust entity.name.constant",
+            "foreground": "#E89898"
+        },
+        {
+            "name": "Rust: Constant reference",
+            "scope": "source.rust constant.other",
+            "foreground": "#E7B187"
+        },
         /* ==================== L S P - S E M A N T I C - H I G H L I G H T I N G :) ====================*/
         {
             "scope": "meta.semantic-token",
