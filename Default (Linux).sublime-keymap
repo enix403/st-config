@@ -1,4 +1,5 @@
 [
+    { "keys": ["ctrl+j", "ctrl+k"], "command": "toggle_side_bar" },
     {
         "keys": [
             "ctrl+alt+;"
@@ -84,6 +85,8 @@
             "snap_direction": -1
         }
     },
+    { "keys": ["ctrl+k", "ctrl+d"], "command": "toggle_side_bar" },
+
     // {
     //     "keys": [
     //         "ctrl+alt+m"
@@ -136,6 +139,9 @@
         ],
         "command": "next_bookmark"
     },
+
+  { "keys": ["ctrl+shift+="], "command": "calculate", "args": { "replace": true } },
+
     // LSP keys
     // Goto Definition
     {
@@ -159,6 +165,13 @@
             }
         ]
     },
+    {
+        "keys": [ "alt+shift+right" ],
+        "command": "typescript_go_to_definition",
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" }
+        ]
+    },
     // Format Document
     {
         "command": "lsp_format_document",
@@ -171,6 +184,24 @@
                 "operator": "equal",
                 "operand": "documentFormattingProvider | documentRangeFormattingProvider"
             }
+        ]
+    },
+    {
+        "keys": [ "ctrl+alt+l" ],
+        "command": "typescript_format_selection",
+        "context": [
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true },
+            { "key": "num_selections", "operator": "equal", "operand": 1, "match_all": true },
+            { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" }
+        ]
+    },
+    {
+        "keys": [ "ctrl+alt+l" ],
+        "command": "typescript_format_document",
+        "context": [
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+            { "key": "num_selections", "operator": "equal", "operand": 1, "match_all": true },
+            { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" }
         ]
     },
     // Run Code Action
@@ -215,7 +246,13 @@
             }
         ]
     },
-    // Trigger Signature Help
+    {
+        "keys": [ "alt+q" ],
+        "command": "typescript_quick_info_doc",
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" },
+        ]
+    },
     {
         "command": "lsp_signature_help_show",
         "keys": [

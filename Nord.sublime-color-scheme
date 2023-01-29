@@ -27,6 +27,17 @@
             "foreground": "#f7a619"
         },
         {
+            "name": "TypeScript const vars",
+            "scope": "source.tsx meta.definition.variable variable.other.constant, source.ts meta.definition.variable variable.other.constant.ts",
+            "foreground": "#D8DEE9",
+            "font_style": "normal"
+        },
+        {
+            "name": "TypeScript type annotations",
+            "scope": "source.tsx meta.type.annotation.tsx entity.name.type.tsx",
+            "foreground": "#8FBCBB"
+        },
+        {
             "name": "Cpp [[...]] annotations",
             "scope": "source.c++ meta.brackets - punctuation",
             // "foreground": "#9abd6d",
@@ -45,7 +56,8 @@
         {
             "name": "Rust: Arrow before return type",
             "scope": "source.rust meta.function meta.function.return-type punctuation.separator - meta.generic - support.type",
-            "foreground": "#db9191"
+            // "foreground": "#db9191",
+            "foreground": "#a0e6f2",
         },
         {
             "name": "Rust: where constraints",
@@ -59,20 +71,25 @@
             "foreground": "#C78F84",
         },
         {
-            "name": "Rust: Struct name after 'impl' keyword",
+            "name": "Rust: Struct/enum name after 'impl' keyword",
             "scope": "meta.impl.rust entity.name.impl",
             // "foreground": "#C78F84"
             "foreground": "#8FBCBB"
         },
         {
-            "name": "Rust: Struct type name in normal types (variable types + func param types)",
+            "name": "Rust: Struct/enum type name in normal types (variable types + func param types)",
             "scope": "meta.generic.rust - punctuation.definition - meta.function.return-type - meta.impl, meta.function.rust meta.function.parameters - punctuation - variable",
             "foreground": "#8FBCBB"
         },
         {
-            "name": "Rust: Struct type name in function return types",
+            "name": "Rust: Struct/enum type name in function return types",
             "scope": "meta.function.rust meta.function.return-type - punctuation",
             "foreground": "#8FBCBB",
+        },
+        {
+            "name": "Rust: Struct/enum type name in another Struct's fields",
+            "scope": "meta.struct.rust meta.block - meta.generic - punctuation",
+            "foreground": "#8FBCBB"
         },
         {
             "name": "Rust: Constant declaration",

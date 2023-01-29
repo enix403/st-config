@@ -1,5 +1,5 @@
 // Settings in here override those in "LSP-json/LSP-json.sublime-settings"
 
 {
-    "enabled": true
+    "enabled": true,
 }

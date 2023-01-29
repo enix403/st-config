@@ -7,6 +7,7 @@
 	
 	"font_face": "Fira Code",
 	// "font_face": "Oxygen Mono",
+	// "font_face": "DM Mono",
 
 	// "font_size": 10,
 	"font_size": 10,
@@ -45,15 +46,17 @@
 		"CMakeBuilder",
 		"Diff",
 		"Graphviz",
+		"Hex-Bin System",
 		"Jinja2",
 		"LaTeX-cwl",
 		"LSP-bash",
 		"LSP-dockerfile",
 		"LSP-volar",
+		"MarkdownPreview",
 		"Rust",
 		"SideBarTools",
 		"Vintage",
-		"WordCount",
+		"WordingStatus",
 	],
 	"remember_full_screen": false,
 	"remember_workspace": false,
@@ -64,6 +67,10 @@
 	"preview_on_click": false,
 	"word_wrap": true,
 	"drag_text": false,
+
+	"scroll_speed": 0.0,
+	"hardware_acceleration": "none",
+	"auto_complete_preserve_order": "strict",
 
 	"auto_complete_delay": 10,
 
@@ -141,6 +148,7 @@
     	"pubspec.lock",
 
     	"act", // my custom python act file
+    	"*.sbl.out"
 	],
 
 	// gruvbox theme
@@ -215,4 +223,10 @@
 			"selector": "text.tex.latex",
 		}
 	],
+
+	/* Package: TypeScript */
+
+	"typescript_auto_format": false,
+	"enable_inline_error_tips": true,
+
 }
