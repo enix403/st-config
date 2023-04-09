@@ -55,14 +55,20 @@
 		"MarkdownPreview",
 		"Rust",
 		"SideBarTools",
+		"TypeScript",
 		"Vintage",
 		"WordingStatus",
 	],
 	"remember_full_screen": false,
 	"remember_workspace": false,
 	"remember_open_files": false,
-	"show_git_status": false,
-	"mini_diff": false,
+
+	"show_git_status": true,
+	"mini_diff": "auto",
+	"git_diff_target": "head",
+
+	"show_encoding": true,
+
 	"theme": "gruvbox.sublime-theme",
 	"preview_on_click": false,
 	"word_wrap": true,
@@ -229,4 +235,5 @@
 	"typescript_auto_format": false,
 	"enable_inline_error_tips": true,
 
+	/*"font_size": 16,*/
 }

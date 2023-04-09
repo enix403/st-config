@@ -8,7 +8,7 @@
         "colorProvider": true,
         "codeLensProvider": true,
         "callHierarchyProvider": true,
-        "inlayHintProvider": true
+        "inlayHintProvider": true,
     },
     "initializationOptions": {
         "maxTsServerMemory": 1024,
@@ -1884,5 +1884,5 @@
             18043,
             18044
         ],
-    }
+    },
 }

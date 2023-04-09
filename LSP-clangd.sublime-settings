@@ -1,0 +1,18 @@
+// Settings in here override those in "LSP-clangd/LSP-clangd.sublime-settings"
+{
+   "command": [
+    "/usr/bin/clangd",
+    "-all-scopes-completion=false",
+    // "-debug-origin",
+    "-header-insertion=never",
+    "-completion-style=bundled",
+    "-limit-results=100",
+    "-background-index",
+    "-include-ineligible-results=false",
+    "-header-insertion-decorators",
+    "-async-preamble=false",
+    // "-ranking-model=decision_forest",
+    "-ranking-model=heuristics"
+   ],
+   "enabled": false, 
+}

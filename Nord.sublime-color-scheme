@@ -3,11 +3,17 @@
     "variables": {},
     "globals": {},
     "rules": [
+
         {
-            // "scope": "keyword.declaration.enum.type, keyword.declaration.struct.type, keyword.declaration.class, keyword.declaration.template, meta.template.c++ keyword.declaration.c++, keyword.declaration.type, keyword.declaration.function.python",
+            "scope": "text.html.markdown markup.bold.markdown",
+            "foreground": "#E89898" 
+        },
+
+        {
             "scope": "keyword.declaration",
             "foreground": "#81A1C1"
         },
+
         {
             "scope": "constant.numeric.suffix",
             "foreground": "#81A1C1"
@@ -20,12 +26,73 @@
             // "foreground": "#ef8888",
             "foreground": "#b48ead"
         },
+
+        /* ---------------------------- */
+        {
+            "scope": "source.proto storage.type.proto",
+            "foreground": "#8FBCBB"
+        },
+
+        {
+            "name": "Java Class Usages",
+            "scope": "source.java storage.type.class",
+            "foreground": "#8FBCBB"
+        },
+        {
+            "name": "Java this keyword",
+            "scope": "source.java variable.language.this",
+            // "foreground": "#7ef2ee",
+            "foreground": "#adcf6d"
+        },
+        {
+            "name": "Java package keyword",
+            "scope": "source.java keyword.declaration.namespace",
+            "foreground": "#f2977e"
+        },
+        {
+            "name": "Java class/interface keyword",
+            "scope": "source.java keyword.declaration.class, keyword.declaration.interface",
+            // "foreground": "#bdd13f"
+            // "foreground": "#69d3ff"
+            "foreground": "#90cfed"
+        },
+        {
+            "name": "Java extends/implements keyword",
+            "scope": "source.java storage.modifier.implements, storage.modifier.extends",
+            "foreground": "#b48ead"
+        },
+        {
+            "name": "Java constants",
+            "scope": "source.java entity.name.constant, source.java constant.other",
+            "foreground": "#E89898"
+        },
+        {
+            "name": "Java dot",
+            "scope": "source.java punctuation.accessor.dot.java",
+            "foreground": "#fff5f4"
+        },
+        {
+            "name": "Java primitive data type",
+            "scope": "source.java storage.type.primitive",
+            "foreground": "#90cfed"
+        },
+        {
+            "name": "Java import path",
+            "scope": "source.java meta.import meta.path",
+            "foreground": "#B3AF8D"
+        },
+
+        /* ---------------------------- */
+
         {
             "name": "HTML Entities",
             "scope": "constant.character.entity.named.html",
             // "foreground": "#def719"
             "foreground": "#f7a619"
         },
+
+        /* ---------------------------- */
+
         {
             "name": "TypeScript const vars",
             "scope": "source.tsx meta.definition.variable variable.other.constant, source.ts meta.definition.variable variable.other.constant.ts",
@@ -37,12 +104,18 @@
             "scope": "source.tsx meta.type.annotation.tsx entity.name.type.tsx",
             "foreground": "#8FBCBB"
         },
+
+        /* ---------------------------- */
+
         {
             "name": "Cpp [[...]] annotations",
             "scope": "source.c++ meta.brackets - punctuation",
             // "foreground": "#9abd6d",
             "foreground": "#bd7a6d",
         },
+
+        /* ---------------------------- */
+
         {
             "name": "Rust: Macros",
             "scope": "support.macro.rust",
@@ -51,7 +124,10 @@
         {
             "name": "Rust type alias target",
             "scope": "entity.name.type.rust",
-            "foreground": "#bd93f9",
+            // "foreground": "#bd93f9",
+            // "foreground": "#90cfed",
+            // "foreground": "#b48ead",
+            "foreground": "#adcf6d",
         },
         {
             "name": "Rust: Arrow before return type",
@@ -61,7 +137,7 @@
         },
         {
             "name": "Rust: where constraints",
-            "scope": "meta.where.rust",
+            "scope": "meta.where.rust - punctuation",
             "foreground": "#b48ead"
         },
         {
@@ -109,6 +185,15 @@
             // "foreground": "#CC97B4",
             "foreground": "#ECA1EA",
         },
+        {
+            "name": "Rust: Labels",
+            "scope": "source.rust  entity.name.label.rust",
+            // "foreground": "#CC97B4",
+            "foreground": "#bdd179",
+        },
+
+        /* ---------------------------- */
+
         /* ==================== L S P - S E M A N T I C - H I G H L I G H T I N G :) ====================*/
         {
             "scope": "meta.semantic-token",

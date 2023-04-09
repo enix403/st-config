@@ -1,3 +1,4 @@
 {
-    "auto_complete_api_completions_only": true
+    "auto_complete_api_completions_only": false,
+    "auto_complete_triggers" : [  ],
 }

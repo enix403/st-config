@@ -6,7 +6,7 @@
     },
     "settings": {
 
-        "rust-analyzer.checkOnSave.enable": false,
+        "rust-analyzer.checkOnSave": true,
         "rust-analyzer.inlayHints.enable": false,
         "rust-analyzer.cargo.allFeatures": false,
         "rust-analyzer.cargo.autoreload": false,
@@ -18,9 +18,9 @@
         "rust-analyzer.highlighting.strings": false,
         "rust-analyzer.hoverActions.debug": false,
         "rust-analyzer.hoverActions.references": false,
-        "rust-analyzer.lens.enable": false,
+        "rust-analyzer.lens.enable": true,
         "rust-analyzer.procMacro.enable": false,
-        "rust-analyzer.diagnostics.enable": false,
+        "rust-analyzer.diagnostics.enable": true,
         "rust-analyzer.completion.addCallParenthesis": false,
     },
 }
