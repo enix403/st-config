@@ -1,0 +1,4 @@
+{
+	"enabled": false,
+	"selector": "source.jsx | source.tsx | source.css | source.scss | source.less | text.html.vue | text.html.svelte | text.html.basic | text.html.twig | text.blade | text.html.blade | text.html.rails | text.html.erb | text.haml | text.jinja | text.django | text.html.elixir | text.html.ngx | source.postcss"
+}

@@ -1,3 +1,19 @@
+/*
+Noice Colors
+
+#F99B7D
+#B0DAFF
+#A0D8B3
+#B3C99C
+#E7AB9A
+#BBD6B8
+#BFDB38
+#A4BE7B
+#E5D9B6
+#C7E9B0
+
+*/
+
 // Documentation at https://www.sublimetext.com/docs/color_schemes.html
 {
     "variables": {},
@@ -26,6 +42,17 @@
             // "foreground": "#ef8888",
             "foreground": "#b48ead"
         },
+        {
+            "scope": "source.json keyword.other.name.json",
+            "foreground": "#f2977e",
+        },
+        {
+            "scope": "source.json string.quoted.json",
+            "foreground": "#90cfed",
+        },
+
+
+        // "source.go constant.language.go"
 
         /* ---------------------------- */
         {
@@ -182,8 +209,7 @@
         {
             "name": "Rust: Module name after mod",
             "scope": "entity.name.module.rust",
-            // "foreground": "#CC97B4",
-            "foreground": "#ECA1EA",
+            "foreground": "#B5D5C5",
         },
         {
             "name": "Rust: Labels",
@@ -299,5 +325,12 @@
         //     "scope": "meta.semantic-token.operator",
         //     "foreground": "#ff0000"
         // },
+
+
+        {
+            // Golang's true/false literals
+            "scope": "meta.semantic-token.variable.readonly.ts",
+            "foreground": "#81A1C1"
+        },
     ]
 }

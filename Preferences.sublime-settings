@@ -5,18 +5,22 @@
 	"caret_style": "smooth",
 	"color_scheme": "Nord.sublime-color-scheme",
 	
-	"font_face": "Fira Code",
-	// "font_face": "Oxygen Mono",
-	// "font_face": "DM Mono",
+	// "ui_scale": 1.02,
+	"ui_scale": 1.25,
 
+	// "font_face": "Jetbrains Mono",
 	// "font_size": 10,
-	"font_size": 10,
-	"ui_scale": 1.02,
+	
+	// "font_face": "Fira Code",
+	// "font_size": 13,
 
-	// "font_size": 9.5,
-	// "ui_scale": 1.2,
 
-	// "font_face": "Monoid",
+	"font_face": "Rec Mono Semicasual",
+	"font_size": 17,
+
+	// "font_face": "Input",
+	// "font_size": 15,
+	// "font_size": 11.5,
 
 	"font_options":
 	[
@@ -29,7 +33,7 @@
 		"gray_antialias",
 		// "ss01",
 		// "ss02",
-		// "ss03", // alternate &
+		"ss03", // alternate &
 		// "ss04",
 		// "ss05",
 		// "ss06",
@@ -47,24 +51,26 @@
 		"Diff",
 		"Graphviz",
 		"Hex-Bin System",
-		"Jinja2",
 		"LaTeX-cwl",
+		"LaTeXTools",
 		"LSP-bash",
 		"LSP-dockerfile",
 		"LSP-volar",
 		"MarkdownPreview",
 		"Rust",
+		"SideBarEnhancements",
 		"SideBarTools",
 		"TypeScript",
 		"Vintage",
-		"WordingStatus",
 	],
 	"remember_full_screen": false,
 	"remember_workspace": false,
 	"remember_open_files": false,
+	"vintage_start_in_command_mode": true,
+	"vintage_use_clipboard": true,
 
-	"show_git_status": true,
-	"mini_diff": "auto",
+	"show_git_status": false,
+	"mini_diff": false,
 	"git_diff_target": "head",
 
 	"show_encoding": true,
@@ -94,14 +100,14 @@
 
     // Folders that should not show up in sidebar
     "folder_exclude_patterns": [
-    	".svn",
-    	".hg",
-    	"CVS",
-    	"__pycache__",
+    	".git",
     	"node_modules",	
+    	".venv",	
+    	"__pycache__",
+    	".ipynb_checkpoints",	
 	],
 
-	// Files that should show up in sidebar
+	// Files that may show up in sidebar
 	// but not in search file panel
     "binary_file_patterns": [
 		"*.exe",
@@ -113,6 +119,7 @@
     	"*.so",
     	"*.class",
     	"*.pyo",
+    	"*.pyc",
     	"*.dylib",
     	"*.ncb",
     	"*.sdf",
@@ -131,30 +138,33 @@
     	"*.otf",
     	"*.woff",
     	"*.woff2",
-    	
-    	".venv/*",
+
+    	"*.jpg",
+    	"*.jpeg",
+    	"*.png",
+    	"*.gif",
+    	"*.mp4",
+    	"*.mp3",
+    	"*.wav",
+    	"*.pdf",
+
     	".git/*",
-    	".cache/*",
+    	"node_modules/*",
+    	".venv/*",
     	".yarn/*",
 
-    	"node_modules/*",
-    	
     	"build/*",
-    	"build-dev/*",
-    	"runtime-dev/*",
+    	"dist/*",
+    	"target/*",
+
+    	"mgdata/*",
 	],
 
     // Files that shoud show up neither in sidebar
     // nor in search file panel
     "file_exclude_patterns": [
-    	"*.pyc",
     	"*.sublime-workspace",
-    	"*.db-journal",
-
-    	"pubspec.lock",
-
-    	"act", // my custom python act file
-    	"*.sbl.out"
+    	"*.sbl.out",
 	],
 
 	// gruvbox theme
@@ -236,4 +246,6 @@
 	"enable_inline_error_tips": true,
 
 	/*"font_size": 16,*/
+	// "index_files": true,
+	"index_files": true,
 }

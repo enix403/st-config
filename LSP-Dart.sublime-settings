@@ -2,14 +2,14 @@
 {
     "enabled": false,
     "env": {
-        "FLUTTER_ROOT": "/home/iradium/Applications/Sdk/flutter"
+        "FLUTTER_ROOT": "/home/radium/Applications/flutter"
     },
     "initializationOptions": {
         "onlyAnalyzeProjectsWithOpenFiles": true,
-        "suggestFromUnimportedLibraries": false,
+        "suggestFromUnimportedLibraries": true,
         "closingLabels": true,
-        "outline": false,
-        "flutterOutline": false,
+        "outline": true,
+        "flutterOutline": true,
     },
     "settings": {
         "dart.showTodos": false,

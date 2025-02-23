@@ -7,20 +7,47 @@
     "settings": {
 
         "rust-analyzer.checkOnSave": true,
-        "rust-analyzer.inlayHints.enable": false,
-        "rust-analyzer.cargo.allFeatures": false,
+        // "rust-analyzer.cargo.allFeatures": false,
+
         "rust-analyzer.cargo.autoreload": false,
         "rust-analyzer.completion.autoimport.enable": false,
         "rust-analyzer.completion.autoself.enable": false,
         "rust-analyzer.completion.postfix.enable": false,
-        "rust-analyzer.highlightRelated.references": false,
-        "rust-analyzer.highlightRelated.yieldPoints": false,
-        "rust-analyzer.highlighting.strings": false,
-        "rust-analyzer.hoverActions.debug": false,
-        "rust-analyzer.hoverActions.references": false,
-        "rust-analyzer.lens.enable": true,
-        "rust-analyzer.procMacro.enable": false,
+        // "rust-analyzer.highlightRelated.references": false,
+        // "rust-analyzer.highlightRelated.yieldPoints": false,
+        // "rust-analyzer.highlighting.strings": false,
+        // "rust-analyzer.hoverActions.debug": false,
+        // "rust-analyzer.hoverActions.references": false,
+        "rust-analyzer.lens.enable": false,
+        "rust-analyzer.procMacro.enable": true,
         "rust-analyzer.diagnostics.enable": true,
-        "rust-analyzer.completion.addCallParenthesis": false,
+        // "rust-analyzer.completion.addCallParenthesis": false,
+
+
+        "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+        "rust-analyzer.inlayHints.chainingHints.enable": true,
+        "rust-analyzer.inlayHints.closingBraceHints.enable": true,
+        "rust-analyzer.inlayHints.closingBraceHints.minLines": 25,
+        "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "with_block",
+        "rust-analyzer.inlayHints.discriminantHints.enable": "never",
+        "rust-analyzer.inlayHints.expressionAdjustmentHints.enable": "always",
+        "rust-analyzer.inlayHints.expressionAdjustmentHints.hideOutsideUnsafe": false,
+        "rust-analyzer.inlayHints.expressionAdjustmentHints.mode": "prefix",
+        "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "skip_trivial",
+        "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": true,
+        "rust-analyzer.inlayHints.maxLength": 25,
+        "rust-analyzer.inlayHints.parameterHints.enable": true,
+        "rust-analyzer.inlayHints.reborrowHints.enable": "never",
+        "rust-analyzer.inlayHints.renderColons": true,
+        "rust-analyzer.inlayHints.typeHints.enable": true,
+        // Only applies to closures with blocks, same as `#rust-analyzer.inlayHints.closureReturnTypeHints.enable#`.
+        "rust-analyzer.inlayHints.typeHints.hideClosureInitialization": false,
+        "rust-analyzer.inlayHints.typeHints.hideNamedConstructor": false,
+
+        "rust-analyzer.diagnostics.disabled": [
+            "inactive-code"
+        ]
+
+
     },
 }

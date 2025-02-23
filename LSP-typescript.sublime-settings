@@ -3,27 +3,27 @@
     "enabled": false,
     "selector": "source.js, source.jsx, source.ts, source.tsx",
     "disabled_capabilities": {
-        "semanticTokensProvider": true,
-        "diagnosticProvider": true,
+        "semanticTokensProvider": false,
+        "diagnosticProvider": false,
         "colorProvider": true,
-        "codeLensProvider": true,
+        "codeLensProvider": false,
         "callHierarchyProvider": true,
         "inlayHintProvider": true,
     },
     "initializationOptions": {
         "maxTsServerMemory": 1024,
         "preferences": {
-            "allowIncompleteCompletions": false,
+            "allowIncompleteCompletions": true,
             "allowRenameOfImportPath": false,
             "allowTextChangesInNewFiles": false,
             "displayPartsForJSDoc": false,
             "generateReturnInDocTemplate": true,
-            "includeAutomaticOptionalChainCompletions": false,
-            "includeCompletionsForImportStatements": false,
-            "includeCompletionsForModuleExports": false,
-            "includeCompletionsWithClassMemberSnippets": false,
-            "includeCompletionsWithInsertText": false,
-            "includeCompletionsWithSnippetText": false,
+            "includeAutomaticOptionalChainCompletions": true,
+            "includeCompletionsForImportStatements": true,
+            "includeCompletionsForModuleExports": true,
+            "includeCompletionsWithClassMemberSnippets": true,
+            "includeCompletionsWithInsertText": true,
+            "includeCompletionsWithSnippetText": true,
             "jsxAttributeCompletionStyle": "auto",
             "providePrefixAndSuffixTextForRename": true,
 
@@ -33,6 +33,7 @@
         },
     },
     "settings": {
+        /*
         "diagnostics.ignoredCodes": [
             1002,
             1003,
@@ -1884,5 +1885,6 @@
             18043,
             18044
         ],
+        */
     },
 }

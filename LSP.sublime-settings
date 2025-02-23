@@ -1,10 +1,8 @@
 // Settings in here override those in "LSP/LSP.sublime-settings"
 {
 	"clients": {
-		
 		// Disabling every single client here to prevent unnecessary bloat
 		// invidual clients can be enabled on per-project basis
-
 		"clangd": {
 			"command": [
 				"/usr/bin/clangd",
@@ -22,43 +20,60 @@
 			],
 			"enabled": false,
 		},
-		"rust-analyzer": {"enabled": false,},
-		"erlang-ls": {"enabled": false,},
-		"ocaml": {"enabled": false,},
-		"gopls": {"enabled": false,},
-		"polymer-ide": {"enabled": false,},
-		"ruby": {"enabled": false,},
-		"sorbet": {"enabled": false,},
-
-
-		// Actually these (external) packages should be disabled
-		// in there respective setting files, not here 
-		"LSP-dockerfile": { "enabled": false, },
-		"LSP-pyright": { "enabled": false, },
-		"LSP-bash": { "enabled": false, },
-		"LSP-Dart": { "enabled": false, }, 
-
-		"LSP-typescript":
-		{
-			"enabled": true,
-		},
-		"LSP-json":
-		{
+		"rust-analyzer": {
 			"enabled": false,
 		},
-
-		 "kotlinls": {
-            "enabled": false,
-            "command": ["/usr/share/kotlin/kotlin-language-server/bin/kotlin-language-server"],
-            "selector": "source.Kotlin",
-            "settings": {
-                "kotlin": {
-                    // put your server settings here
-                },
-            },
-        },
+		"erlang-ls": {
+			"enabled": false,
+		},
+		"ocaml": {
+			"enabled": false,
+		},
+		"gopls": {
+			"enabled": false,
+		},
+		"polymer-ide": {
+			"enabled": false,
+		},
+		"ruby": {
+			"enabled": false,
+		},
+		"sorbet": {
+			"enabled": false,
+		},
+		// Actually these (external) packages should be disabled
+		// in there respective setting files, not here 
+		"LSP-dockerfile": {
+			"enabled": false,
+		},
+		"LSP-pyright": {
+			"enabled": false,
+		},
+		"LSP-bash": {
+			"enabled": false,
+		},
+		"LSP-Dart": {
+			"enabled": false,
+		},
+		"LSP-typescript": {
+			"enabled": true,
+		},
+		"LSP-json": {
+			"enabled": false,
+		},
+		"kotlinls": {
+			"enabled": false,
+			"command": [
+				"/home/radium/Applications/kotlin-language-server/server/build/install/server/bin/kotlin-language-server"
+			],
+			"selector": "source.Kotlin",
+			"settings": {
+				"kotlin": {
+					// put your server settings here
+				},
+			},
+		},
 	},
-
 	// "only_show_lsp_completions": true,
 	"show_view_status": true,
 	"show_diagnostics_count_in_view_status": true,
@@ -67,17 +82,14 @@
 	"show_code_actions_bulb": true,
 	"show_symbol_action_links": true,
 	"show_diagnostics_panel_on_save": 0,
-
 	"inhibit_snippet_completions": false,
 	"inhibit_word_completions": true,
-
 	"diagnostics_highlight_style": {
 		"error": "squiggly",
 		"warning": "squiggly",
 		"info": "stippled",
 		"hint": "stippled",
 	},
-
 	"semantic_highlighting": true,
 	"link_highlight_style": "none",
 }

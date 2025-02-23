@@ -4,5 +4,6 @@
 		"htm",
 		"html.erb",
 		"ejs",
+		"html",
 	],
 }

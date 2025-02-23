@@ -1,0 +1,7 @@
+{
+	"enabled": false,
+	"settings": {
+		"pylsp.plugins.pycodestyle.enabled": false,
+		"pylsp.plugins.autopep8.enabled": true,
+	}
+}

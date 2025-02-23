@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"settings": {
+	    "gopls.usePlaceholders": true,
+	    "gopls.hints": {
+	    	"assignVariableTypes": true,
+	    	"compositeLiteralFields": true,
+	    	"compositeLiteralTypes": true,
+	    	"constantValues": true,
+	    	"functionTypeParameters": true,
+	    	"parameterNames": false,
+	    	"rangeVariableTypes": true
+	    },
+	    "gopls.semanticTokens": true
+	}
+}

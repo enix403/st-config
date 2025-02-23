@@ -1,5 +1,11 @@
 [
-    { "keys": ["ctrl+j", "ctrl+k"], "command": "toggle_side_bar" },
+    {
+        "keys": [
+            "ctrl+j",
+            "ctrl+k"
+        ],
+        "command": "toggle_side_bar"
+    },
     {
         "keys": [
             "ctrl+alt+;"
@@ -85,8 +91,13 @@
             "snap_direction": -1
         }
     },
-    { "keys": ["ctrl+k", "ctrl+d"], "command": "toggle_side_bar" },
-
+    {
+        "keys": [
+            "ctrl+k",
+            "ctrl+d"
+        ],
+        "command": "toggle_side_bar"
+    },
     // {
     //     "keys": [
     //         "ctrl+alt+m"
@@ -139,9 +150,15 @@
         ],
         "command": "next_bookmark"
     },
-
-  { "keys": ["ctrl+shift+="], "command": "calculate", "args": { "replace": true } },
-
+    {
+        "keys": [
+            "ctrl+shift+="
+        ],
+        "command": "calculate",
+        "args": {
+            "replace": true
+        }
+    },
     // LSP keys
     // Goto Definition
     {
@@ -165,13 +182,13 @@
             }
         ]
     },
-    {
-        "keys": [ "alt+shift+right" ],
-        "command": "typescript_go_to_definition",
-        "context": [
-            { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" }
-        ]
-    },
+    // {
+    //     "keys": [ "alt+shift+right" ],
+    //     "command": "typescript_go_to_definition",
+    //     "context": [
+    //         { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" }
+    //     ]
+    // },
     // Format Document
     {
         "command": "lsp_format_document",
@@ -187,21 +204,53 @@
         ]
     },
     {
-        "keys": [ "ctrl+alt+l" ],
+        "keys": [
+            "ctrl+alt+l"
+        ],
         "command": "typescript_format_selection",
         "context": [
-            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true },
-            { "key": "num_selections", "operator": "equal", "operand": 1, "match_all": true },
-            { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" }
+            {
+                "key": "selection_empty",
+                "operator": "equal",
+                "operand": false,
+                "match_all": true
+            },
+            {
+                "key": "num_selections",
+                "operator": "equal",
+                "operand": 1,
+                "match_all": true
+            },
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "source.ts, source.tsx, source.js, source.jsx"
+            }
         ]
     },
     {
-        "keys": [ "ctrl+alt+l" ],
+        "keys": [
+            "ctrl+alt+l"
+        ],
         "command": "typescript_format_document",
         "context": [
-            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-            { "key": "num_selections", "operator": "equal", "operand": 1, "match_all": true },
-            { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" }
+            {
+                "key": "selection_empty",
+                "operator": "equal",
+                "operand": true,
+                "match_all": true
+            },
+            {
+                "key": "num_selections",
+                "operator": "equal",
+                "operand": 1,
+                "match_all": true
+            },
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "source.ts, source.tsx, source.js, source.jsx"
+            }
         ]
     },
     // Run Code Action
@@ -215,6 +264,19 @@
                 "key": "lsp.session_with_capability",
                 "operator": "equal",
                 "operand": "codeActionProvider"
+            }
+        ]
+    },
+    // Accepts optional "enable" argument to specify the expected state instead of toggling.
+    {
+        "command": "lsp_toggle_inlay_hints",
+        "keys": [
+            "alt+s"
+        ],
+        "context": [
+            {
+                "key": "lsp.session_with_capability",
+                "operand": "inlayHintProvider"
             }
         ]
     },
@@ -247,10 +309,16 @@
         ]
     },
     {
-        "keys": [ "alt+q" ],
+        "keys": [
+            "alt+q"
+        ],
         "command": "typescript_quick_info_doc",
         "context": [
-            { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" },
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "source.ts, source.tsx, source.js, source.jsx"
+            },
         ]
     },
     {
@@ -326,7 +394,17 @@
         ],
         "command": "close_file"
     },
-    // { "keys": ["shift+space"], "command": "run_macro_file", "args": {"file": "Packages/User/expand_snippet.sublime-macro"} }
+    /*
+    {
+        "keys": [
+            "ctrl+j"
+        ],
+        "command": "run_macro_file",
+        "args": {
+            "file": "Packages/User/expand_snippet.sublime-macro"
+        }
+    },
+    */
     {
         "keys": [
             "ctrl+0"
