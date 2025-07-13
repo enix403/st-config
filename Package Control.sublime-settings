@@ -2,6 +2,10 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"LSP-svelte",
+		"LSP-tailwindcss",
+		"LSP-typescript",
+		"PackageDev",
 	],
 	"installed_packages":
 	[
@@ -66,6 +70,7 @@
 		"Scala Syntax",
 		"SideBarEnhancements",
 		"SideBarTools",
+		"Smali",
 		"SQLTools",
 		"Svelte",
 		"SyntaxFold",

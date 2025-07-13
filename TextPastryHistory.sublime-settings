@@ -511,20 +511,6 @@
 			{
 				"args":
 				{
-					"text": "0 1 2",
-					/*"threshold": 3,*/
-				},
-				"command": "text_pastry_step",
-				"text": "0 1 2",
-			},
-			"key": "7ad54da1dd54a4b1bbcacc8735504a8e",
-			"label": "0 1 2",
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "0 1 1'",
 					/*"threshold": 3,*/
 				},
@@ -596,7 +582,7 @@
 				"args":
 				{
 					"text": "11 1 1",
-					/*"threshold": 3*/
+					/*"threshold": 3,*/
 				},
 				"command": "text_pastry_step",
 				"text": "11 1 1",
@@ -610,6 +596,7 @@
 				"args":
 				{
 					"text": "1 2 1",
+					/*"threshold": 3*/
 				},
 				"command": "text_pastry_step",
 				"text": "1 2 1",
@@ -642,19 +629,6 @@
 			},
 			"key": "94d3af9cf0b36d0a52cc4e4d45358db5",
 			"label": "2 1 1",
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					"text": "1 1 2",
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 2",
-			},
-			"key": "bed4ce69bb178ee0474acea7c3188868",
-			"label": "1 1 2",
 		},
 		{
 			"data":
@@ -695,16 +669,42 @@
 			"key": "f4093d4303a6804a1cf378c28e59581a",
 			"label": "1 1 1",
 		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 2",
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 2",
+			},
+			"key": "7ad54da1dd54a4b1bbcacc8735504a8e",
+			"label": "0 1 2",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 2",
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 2",
+			},
+			"key": "bed4ce69bb178ee0474acea7c3188868",
+			"label": "1 1 2",
+		},
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "1 1 1",
+			"text": "1 1 2",
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 		},
 		"command": "text_pastry_step",
-		"text": "1 1 1",
+		"text": "1 1 2",
 	},
 }

@@ -8,19 +8,14 @@
 	// "ui_scale": 1.02,
 	"ui_scale": 1.25,
 
-	// "font_face": "Jetbrains Mono",
-	// "font_size": 10,
-	
 	// "font_face": "Fira Code",
 	// "font_size": 13,
 
-
 	"font_face": "Rec Mono Semicasual",
-	"font_size": 17,
+	"font_size": 14,
 
-	// "font_face": "Input",
-	// "font_size": 15,
-	// "font_size": 11.5,
+	// "font_face": "Fira Code",
+	// "font_size": 13,
 
 	"font_options":
 	[
@@ -55,8 +50,12 @@
 		"LaTeXTools",
 		"LSP-bash",
 		"LSP-dockerfile",
+		"LSP-svelte",
+		"LSP-tailwindcss",
+		"LSP-typescript",
 		"LSP-volar",
 		"MarkdownPreview",
+		"PackageDev",
 		"Rust",
 		"SideBarEnhancements",
 		"SideBarTools",
